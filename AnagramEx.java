@@ -21,16 +21,16 @@ class AnagramEx
 					count++;
 					break;
 				}
-				if(count==0)
-				{
-					flag=false;
-					System.out.println("Not Anagram");
-				}
 			}
-			if(flag)
+			if(count==0)
 			{
-					System.out.println("Anagram");				
+				flag=false;
+				System.out.println("Not Anagram");
 			}
+		}
+		if(flag)
+		{
+			System.out.println("Anagram");				
 		}
 	}
 }
